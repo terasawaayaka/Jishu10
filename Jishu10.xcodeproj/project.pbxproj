@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F11D789244F1E6D00B31ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D788244F1E6D00B31ABD /* AppDelegate.swift */; };
+		1F11D78B244F1E6D00B31ABD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D78A244F1E6D00B31ABD /* SceneDelegate.swift */; };
+		1F11D790244F1E6D00B31ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D78E244F1E6D00B31ABD /* Main.storyboard */; };
+		1F11D792244F1E7300B31ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D791244F1E7300B31ABD /* Assets.xcassets */; };
+		1F11D795244F1E7300B31ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F11D793244F1E7300B31ABD /* LaunchScreen.storyboard */; };
+		F85C7ECF5579B5AE287EA20E /* Pods_Jishu10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41B7CC9AEE001B3C4748EE6 /* Pods_Jishu10.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F11D785244F1E6D00B31ABD /* Jishu10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jishu10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F11D788244F1E6D00B31ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F11D78A244F1E6D00B31ABD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F11D78F244F1E6D00B31ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F11D791244F1E7300B31ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F11D794244F1E7300B31ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F11D796244F1E7300B31ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41B7CC9AEE001B3C4748EE6 /* Pods_Jishu10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jishu10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF27FB4B9407EE729F9864D /* Pods-Jishu10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jishu10.release.xcconfig"; path = "Target Support Files/Pods-Jishu10/Pods-Jishu10.release.xcconfig"; sourceTree = "<group>"; };
+		D5139ECA2C3C15C967452B2F /* Pods-Jishu10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jishu10.debug.xcconfig"; path = "Target Support Files/Pods-Jishu10/Pods-Jishu10.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F11D782244F1E6D00B31ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85C7ECF5579B5AE287EA20E /* Pods_Jishu10.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F11D77C244F1E6D00B31ABD = {
+			isa = PBXGroup;
+			children = (
+				1F11D787244F1E6D00B31ABD /* Jishu10 */,
+				1F11D786244F1E6D00B31ABD /* Products */,
+				E36B262EFF0C7B63A6309D05 /* Pods */,
+				DB5150608982AE6FBFA1541D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F11D786244F1E6D00B31ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F11D785244F1E6D00B31ABD /* Jishu10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F11D787244F1E6D00B31ABD /* Jishu10 */ = {
+			isa = PBXGroup;
+			children = (
+				1F11D788244F1E6D00B31ABD /* AppDelegate.swift */,
+				1F11D78A244F1E6D00B31ABD /* SceneDelegate.swift */,
+				1F11D78E244F1E6D00B31ABD /* Main.storyboard */,
+				1F11D791244F1E7300B31ABD /* Assets.xcassets */,
+				1F11D793244F1E7300B31ABD /* LaunchScreen.storyboard */,
+				1F11D796244F1E7300B31ABD /* Info.plist */,
+			);
+			path = Jishu10;
+			sourceTree = "<group>";
+		};
+		DB5150608982AE6FBFA1541D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A41B7CC9AEE001B3C4748EE6 /* Pods_Jishu10.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E36B262EFF0C7B63A6309D05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5139ECA2C3C15C967452B2F /* Pods-Jishu10.debug.xcconfig */,
+				CFF27FB4B9407EE729F9864D /* Pods-Jishu10.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F11D784244F1E6D00B31ABD /* Jishu10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F11D799244F1E7300B31ABD /* Build configuration list for PBXNativeTarget "Jishu10" */;
+			buildPhases = (
+				7C7488A23A375DA40B0C7C89 /* [CP] Check Pods Manifest.lock */,
+				1F11D781244F1E6D00B31ABD /* Sources */,
+				1F11D782244F1E6D00B31ABD /* Frameworks */,
+				1F11D783244F1E6D00B31ABD /* Resources */,
+				6B25C20C3D5BF4E845B3E683 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jishu10;
+			productName = Jishu10;
+			productReference = 1F11D785244F1E6D00B31ABD /* Jishu10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F11D77D244F1E6D00B31ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "ASW-研修２";
+				TargetAttributes = {
+					1F11D784244F1E6D00B31ABD = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 1F11D780244F1E6D00B31ABD /* Build configuration list for PBXProject "Jishu10" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F11D77C244F1E6D00B31ABD;
+			productRefGroup = 1F11D786244F1E6D00B31ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F11D784244F1E6D00B31ABD /* Jishu10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F11D783244F1E6D00B31ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F11D795244F1E7300B31ABD /* LaunchScreen.storyboard in Resources */,
+				1F11D792244F1E7300B31ABD /* Assets.xcassets in Resources */,
+				1F11D790244F1E6D00B31ABD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B25C20C3D5BF4E845B3E683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jishu10/Pods-Jishu10-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jishu10/Pods-Jishu10-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jishu10/Pods-Jishu10-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C7488A23A375DA40B0C7C89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jishu10-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F11D781244F1E6D00B31ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F11D789244F1E6D00B31ABD /* AppDelegate.swift in Sources */,
+				1F11D78B244F1E6D00B31ABD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F11D78E244F1E6D00B31ABD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F11D78F244F1E6D00B31ABD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F11D793244F1E7300B31ABD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F11D794244F1E7300B31ABD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F11D797244F1E7300B31ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F11D798244F1E7300B31ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F11D79A244F1E7300B31ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5139ECA2C3C15C967452B2F /* Pods-Jishu10.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6R5GT3H5J;
+				INFOPLIST_FILE = Jishu10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ASW-inc.Jishu10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F11D79B244F1E7300B31ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF27FB4B9407EE729F9864D /* Pods-Jishu10.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6R5GT3H5J;
+				INFOPLIST_FILE = Jishu10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ASW-inc.Jishu10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F11D780244F1E6D00B31ABD /* Build configuration list for PBXProject "Jishu10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F11D797244F1E7300B31ABD /* Debug */,
+				1F11D798244F1E7300B31ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F11D799244F1E7300B31ABD /* Build configuration list for PBXNativeTarget "Jishu10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F11D79A244F1E7300B31ABD /* Debug */,
+				1F11D79B244F1E7300B31ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F11D77D244F1E6D00B31ABD /* Project object */;
+}
